@@ -54,6 +54,10 @@ Route::middleware(['auth', 'role:admin'])
     ->prefix('admin')
     ->name('admin.')
     ->group(function () {
+
+        Route::get('/', function () {
+            return view('admin.dashboard');})->name('dashboard');
+            
         // User management
         Route::resource('users', \App\Http\Controllers\Admin\UserController::class);
 
