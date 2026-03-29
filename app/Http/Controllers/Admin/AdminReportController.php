@@ -11,7 +11,7 @@ use App\Models\Payment;
 use App\Models\Pet;
 use Illuminate\Http\Request;
 
-class ReportController extends Controller
+class AdminReportController extends Controller
 {
     /**
      * Financial report — revenue, payments, and expenses summary.

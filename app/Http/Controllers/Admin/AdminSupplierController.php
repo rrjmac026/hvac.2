@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Supplier;
 use Illuminate\Http\Request;
 
-class SupplierController extends Controller
+class AdminSupplierController extends Controller
 {
     public function index(Request $request)
     {

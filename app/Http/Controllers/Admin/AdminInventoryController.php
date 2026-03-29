@@ -9,7 +9,7 @@ use App\Models\Supplier;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 
-class InventoryController extends Controller
+class AdminInventoryController extends Controller
 {
     public function index(Request $request)
     {

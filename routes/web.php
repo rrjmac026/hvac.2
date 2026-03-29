@@ -70,7 +70,7 @@ Route::middleware(['auth', 'role:admin'])
             return view('admin.dashboard');})->name('dashboard');
             
         // User management
-        Route::resource('users', \App\Http\Controllers\Admin\UserController::class);
+        Route::resource('users', \App\Http\Controllers\Admin\AdminUserController::class);
 
         // Inventory & suppliers
         Route::resource('inventory', \App\Http\Controllers\Admin\InventoryController::class);
