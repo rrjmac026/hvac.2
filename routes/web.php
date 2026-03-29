@@ -3,6 +3,17 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Admin\AdminPosController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\InventoryController;
+use App\Http\Controllers\Admin\SupplierController;
+use App\Http\Controllers\Admin\PurchaseOrderController;
+use App\Http\Controllers\Admin\ReportController;
+use App\Http\Controllers\Admin\AuditLogController;
+use App\Http\Controllers\Vet\MedicalRecordController;
+use App\Http\Controllers\Vet\DiagnosisController;
+use App\Http\Controllers\Vet\PrescriptionController;
+use App\Http\Controllers\Vet\LabResultController;
+use App\Http\Controllers\Vet\VaccinationController;
 
 Route::get('/', function () {
     return view('welcome');
